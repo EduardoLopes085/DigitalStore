@@ -23,7 +23,7 @@
 
   <!-- Autor -->
   <a href="https://github.com/EduardoLopes085">
-    <img alt="made by Eduardo Lopes" src="https://img.shields.io/badge/made%20by-Eduardo%20Lopes-ff69b4">
+    <img alt="made by Eduardo Lopes" src="https://img.shields.io/badge/made%20by-Eduardo%20Lopes-8A2BE2">
   </a>
 </p>
 

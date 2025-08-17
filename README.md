@@ -3,7 +3,7 @@
 </h1>
 
 <h1 align="center">
-  <a href="#"> DRIPSTORE </a>
+  <a href="#"> DripStore </a>
 </h1>
 
 <!-- <h3 align="center">We help you build your project in React!</h3> -->

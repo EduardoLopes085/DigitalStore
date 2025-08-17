@@ -45,6 +45,7 @@
 **DRIPSTORE** é uma aplicação frontend desenvolvida em **React** que simula um e-commerce de roupas streetwear.  
 O objetivo do projeto é praticar conceitos de **componentização, gerenciamento de estado, rotas e consumo de APIs** dentro de uma aplicação moderna.
 
+[![Figma](https://img.shields.io/badge/Figma-Design-blue?style=flat&logo=figma&logoColor=white)](https://www.figma.com/design/cfb4F7ZXMFQmvmTn3PKI4z/DRIP-STORE---DIGITAL-COLLEGE?node-id=101-2&p=f&t=UWydJ5o841N4gIQZ-0)
 
 ---
 

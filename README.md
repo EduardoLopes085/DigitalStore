@@ -10,16 +10,20 @@
 
 <p align="center">
 
-  <img alt="Stars" src="https://img.shields.io/github/stars/EduardoLopes085/README-template?style=social">
+  <!-- Número de estrelas no seu repo DigitalStore -->
+  <img alt="Stars" src="https://img.shields.io/github/stars/EduardoLopes085/DigitalStore?style=social">
   
-  <a href="https://github.com/EduardoLopes085/README-template">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/EduardoLopes085/README-template">
+  <!-- Último commit no seu repo -->
+  <a href="https://github.com/EduardoLopes085/DigitalStore">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/EduardoLopes085/DigitalStore">
   </a>
     
+  <!-- Licença -->
   <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
 
-  <a href="https://github.com/EduardoLopes085/">
-    <img alt="made by Evelin Steiger" src="https://img.shields.io/badge/made%20by-Evelin%20Steiger-ff69b4">
+  <!-- Autor -->
+  <a href="https://github.com/EduardoLopes085">
+    <img alt="made by Eduardo Lopes" src="https://img.shields.io/badge/made%20by-Eduardo%20Lopes-ff69b4">
   </a>
 </p>
 
@@ -28,9 +32,9 @@
 </h4>
 
 <p align="center">
- <a href="#sobre">SOBRE</a> •
- <a href="#FUNCIONALIDADES">FUNCIONALIDADES</a> •
- <a href="#COMO FUNCIONA">COMO FUNCIONA</a> • 
+ <a href="#sobre">Sobre</a> •
+ <a href="#FUNCIONALIDADES">Funcionalidades</a> •
+ <a href="Funcionamento">Funcionamento</a> • 
  <a href="#tech-stack">Tech Stack</a> •  
  <a href="#author">Author</a> • 
  <a href="#user-content-license">License</a>
@@ -54,7 +58,7 @@ O objetivo do projeto é praticar conceitos de **componentização, gerenciament
 
 ---
 
-## COMO FUNCIONA
+## Funcionamento
 
 Este repositório contém apenas a parte **Frontend**.
 

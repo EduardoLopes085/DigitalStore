@@ -1,12 +1,132 @@
-# React + Vite
+<h1 align="center">
+    <img alt="project" title="#About" src="./src/assets/images/project-cover.png />
+</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<h1 align="center">
+  <a href="#"> DRIPSTORE </a>
+</h1>
 
-Currently, two official plugins are available:
+<!-- <h3 align="center">We help you build your project in React!</h3> -->
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<p align="center">
 
-## Expanding the ESLint configuration
+  <img alt="Stars" src="https://img.shields.io/github/stars/EduardoLopes085/README-template?style=social">
+  
+  <a href="https://github.com/EduardoLopes085/README-template">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/EduardoLopes085/README-template">
+  </a>
+    
+  <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+  <a href="https://github.com/EduardoLopes085/">
+    <img alt="made by Evelin Steiger" src="https://img.shields.io/badge/made%20by-Evelin%20Steiger-ff69b4">
+  </a>
+</p>
+
+<h4 align="center"> 
+	 Status: Working...
+</h4>
+
+<p align="center">
+ <a href="#sobre">SOBRE</a> •
+ <a href="#FUNCIONALIDADES">FUNCIONALIDADES</a> •
+ <a href="#COMO FUNCIONA">COMO FUNCIONA</a> • 
+ <a href="#tech-stack">Tech Stack</a> •  
+ <a href="#author">Author</a> • 
+ <a href="#user-content-license">License</a>
+</p>
+
+## SOBRE
+
+**DRIPSTORE** é uma aplicação frontend desenvolvida em **React** que simula um e-commerce de roupas streetwear.  
+O objetivo do projeto é praticar conceitos de **componentização, gerenciamento de estado, rotas e consumo de APIs** dentro de uma aplicação moderna.
+
+
+---
+
+## FUNCIONALIDADES
+
+- [ ] Listagem de produtos por categorias ⚡ **Loading...** → Funcionalidades em desenvolvimento  
+- [ ] Página de detalhes do produto ⚡ **Loading...** → Funcionalidades em desenvolvimento  
+- [ ] Carrinho de compras ⚡ **Loading...** → Funcionalidades em desenvolvimento
+- [ ] Autenticação de usuário ⚡ **Loading...** → Funcionalidades em desenvolvimento 
+- [ ] Integração com API de pagamentos ⚡ **Loading...** → Funcionalidades em desenvolvimento
+
+---
+
+## COMO FUNCIONA
+
+Este repositório contém apenas a parte **Frontend**.
+
+1. Frontend 
+2. Backend - outro repositório 
+
+### REQUISITOS
+
+Antes de começar, você precisará ter instalado em sua máquina:  
+- [Git](https://git-scm.com)  
+- [Node.js](https://nodejs.org/en/)  
+- [NPM](https://www.npmjs.com/)  
+
+Um editor como o [VSCode](https://code.visualstudio.com/) também é recomendado.
+
+### ▶️ Rodando o projeto (Frontend)
+
+```bash
+
+# Clone este repositório
+$ git clone https://github.com/EduardoLopes085/DigitalStore.git
+
+# Acesse a pasta do projeto
+$ cd digitalstore
+
+# Instale as dependências
+$ npm install
+
+# Inicie a aplicação
+$ npm run dev
+
+# O app estará rodando em http://localhost:5137
+
+```
+
+---
+
+## Tech Stack
+
+As seguintes ferramentas foram utilizadas na construção do projeto:
+
+#### **Platform**
+- **[React](https://reactjs.org/)** → Biblioteca principal
+- **[Vite](https://vitejs.dev/)** → Bundler e ferramenta de build
+- **[JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)**
+- **[React Router Dom](https://reactrouter.com/)** → Navegação entre páginas
+- ⚡ **Loading...** → Funcionalidades futuras em desenvolvimento
+
+> Confira todas as dependências em [package.json](https://github.com/EduardoLopes085/DigitalStore/blob/main/package.json)
+
+#### **Utils**
+- **[Visual Studio Code](https://code.visualstudio.com/)** → Editor de código
+- **[Font Awesome](https://fontawesome.com/)** → Ícones prontos para uso
+- **[Inter](https://fonts.google.com/specimen/Inter)** → Tipografia do projeto
+---
+
+## Author
+
+<a href="https://www.linkedin.com/in/eduardolopesdev/">
+ <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/00000000?v=4" width="70px;" alt="Eduardo Lopes"/>
+ <br />
+ <p><b>Eduardo Lopes</b></p></a>
+
+[![Linkedin Badge](https://img.shields.io/badge/-Eduardo%20Lopes-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/eduardolopesdev/)](https://www.linkedin.com/in/eduardolopesdev/)
+
+---
+
+## License
+
+This project is under the license [MIT](./LICENSE).
+
+Made with hard work and dedication by Eduardo Lopes 🥷 [Get in Touch!](https://www.linkedin.com/in/eduardolopesdev/)
+
+---
+

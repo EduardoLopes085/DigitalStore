@@ -106,6 +106,7 @@ As seguintes ferramentas foram utilizadas na construção do projeto:
 - **[Vite](https://vitejs.dev/)** → Bundler e ferramenta de build
 - **[JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)** → Linguagem de programação principal 
 - **[React Router Dom](https://reactrouter.com/)** → Navegação entre páginas
+- **[SwiperJs](https://swiperjs.com/react)** → Swipers
 - ⚡ **Loading...** → Dependências em constante atualização
 
 > Confira todas as dependências em [package.json](https://github.com/EduardoLopes085/DigitalStore/blob/main/package.json)

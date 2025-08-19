@@ -104,9 +104,9 @@ As seguintes ferramentas foram utilizadas na construção do projeto:
 #### **Platform**
 - **[React](https://reactjs.org/)** → Biblioteca principal
 - **[Vite](https://vitejs.dev/)** → Bundler e ferramenta de build
-- **[JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)**
+- **[JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)** → Linguagem de programação principal 
 - **[React Router Dom](https://reactrouter.com/)** → Navegação entre páginas
-- ⚡ **Loading...** → Funcionalidades futuras em desenvolvimento
+- ⚡ **Loading...** → Dependências em constante atualização
 
 > Confira todas as dependências em [package.json](https://github.com/EduardoLopes085/DigitalStore/blob/main/package.json)
 

@@ -162,7 +162,7 @@
 
 
 
-@media screen and (width < 500px) {
+@media screen and (max-width : 500px) {
     .navigation-mobile{
         display: flex;
     }

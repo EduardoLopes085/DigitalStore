@@ -15,10 +15,6 @@
 .header-wrap{
     width: 90%;
     height: 100%;
-    
-
-
-    
 }
 
 .header-top{
@@ -29,11 +25,13 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    
-
-   
 
 }
+
+.navigation-mobile{
+    display: none;
+}
+
 
 .shop-logo{
     
@@ -55,7 +53,9 @@
     border: none;
 }
 
-
+.search-mobile{
+    display: none;
+}
     
 .register-button{
     color: var(--dark-gray-2);
@@ -156,4 +156,66 @@
 
 .navigation-item:hover::after {
   transform: scaleX(1);  /* cresce até ocupar 100% */
+}
+
+
+
+
+
+@media screen and (width < 500px) {
+    .navigation-mobile{
+        display: flex;
+    }
+
+
+
+    .header-wrap{
+        width: 100%;
+        height: 100%;
+    }
+
+    
+    .header-top{
+        width: 100%;
+        
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        
+    }
+
+
+    .search-mobile{
+        display: flex;
+        
+    }
+
+    .shop-logo{
+        width: 40%;
+    }
+    
+    
+    .search-input{
+        display: none;
+        
+        
+    }
+    
+    .register-button{
+        display: none;
+    }
+
+    .login-button{
+        display: none;
+    }
+
+    .header-bottom{
+        display: none;
+    }
+
+    .cart-button{
+        scale: 1;
+    }
+
 }

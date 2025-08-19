@@ -1,0 +1,51 @@
+.swiper {
+  width: 100%;
+  height: 50vh;
+}
+
+.swiper-slide {
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.swiper-slide img {
+    width: 100%;
+    
+    
+}
+
+.swiper-pagination-bullet {
+  background-color: var(--primary); /* cor padrão das bullets */
+  opacity: 0.7;
+  width: 16px;       /* largura da bullet */
+  height: 16px;      /* altura da bullet */
+  border-radius: 50%; /* garante que continue redonda */
+}
+
+/* Altera a cor da bullet ativa */
+.swiper-pagination-bullet-active {
+  opacity: 1; /* opcional */
+  scale: 1.25;
+}
+
+
+
+@media screen and (max-width: 500px) {
+    .swiper {
+        width: 100%;
+        height: auto;
+    }
+
+    .swiper-slide {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .swiper-slide img {
+        width: 100%;
+    }
+}

@@ -119,11 +119,11 @@ As seguintes ferramentas foram utilizadas na construção do projeto:
 
 ## Author
 
-<a href="https://www.linkedin.com/in/eduardolopesdev/">
+<!--<a href="https://www.linkedin.com/in/eduardolopesdev/">
  <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/00000000?v=4" width="70px;" alt="Eduardo Lopes"/>
  <br />
  <p><b>Eduardo Lopes</b></p></a>
-
+-->
 [![Linkedin Badge](https://img.shields.io/badge/-Eduardo%20Lopes-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/eduardolopesdev/)](https://www.linkedin.com/in/eduardolopesdev/)
 
 ---

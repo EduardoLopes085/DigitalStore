@@ -1,7 +1,7 @@
 .square-destach{
     
     width: 100%;
-    height: 35vh;
+    height: 40dvh;
 
     display: flex;
     flex-direction: row;
@@ -32,7 +32,7 @@
 
 .square-card-container{
     width: 100%;
-    height: calc(100% - 36px);
+    height: calc(100% - 28px);
     
     display: flex;
     flex-direction: row;
@@ -40,13 +40,81 @@
     justify-content: space-between;
 }
 
-.square-card{
-    width: 25%;
-    height: 90%;
-    border-radius: 8px;
-    background-image: url('../../assets/images/collection-1.png');
+
+.square-card {
+  position: relative;        
+  width: 30%;
+  height: calc(100% - 28px);
+  border-radius: 8px;        
+  overflow: hidden;         
+  z-index: 0;               
+}
+
+
+.square-card::before {
+  content: "";                             
+  position: absolute;                     
+  inset: 0;                                
+  background: url('../../assets/images/collection-1.png') center / cover no-repeat; 
+  transform: scale(1);                     
+  transform-origin: center center;         
+  transition: transform .6s ease, filter .6s ease; 
+  will-change: transform;                  
+  border-radius: inherit;                  
+  z-index: 0;                              
+}
+
+
+.square-card > * {
+  position: relative;
+  z-index: 1;
+}
+
+.square-card:hover::before {
+  transform: scale(1.10);      
+  filter: brightness(1.05);    
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+    .square-destach{
+        width: 100%;
+        height: 95dvh;
+
+    }
     
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    
+    .square-card-container{
+        width: 100%;
+        height: calc(100% - 36px);
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+
+        
+    }
+    
+    
+    .square-card{
+        
+        
+        width: 100%;
+        height: 30%;
+        border-radius: 8px;
+        background-image: url('../../assets/images/collection-1.png');
+    
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+
+        
+        overflow: hidden;
+    }
+
+
+    
 }

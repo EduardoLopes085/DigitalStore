@@ -1,6 +1,7 @@
 import Header from "../components/Header/header";
 import Slider from "../components/swipper/swipper-home.jsx";
 import SquareDestach from "../components/square-destach/square-destach.jsx";
+import ColectionDestach from "../components/colection-destach/colection-destach.jsx";
 
 function Home(){
 
@@ -9,6 +10,7 @@ function Home(){
             <Header/>
             <Slider/>
             <SquareDestach/>
+            <ColectionDestach/>
         </>
        
     );

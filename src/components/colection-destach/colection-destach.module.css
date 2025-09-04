@@ -68,3 +68,29 @@
 }
 
 
+@media (max-width: 768px) {
+    .collection-row {
+        width: 100%;              /* ocupa toda a largura */
+        justify-content: flex-start;
+        overflow-x: auto;         /* rolagem horizontal */
+        flex-wrap: nowrap;        /* impede quebra */
+        padding: 8px 0;
+        scroll-snap-type: x mandatory;
+        -webkit-overflow-scrolling: touch; /* suaviza no iOS */
+    }
+
+    .collection-item {
+        min-width: 120px;         /* fica maior */
+        flex: 0 0 auto;           /* impede de encolher */
+        scroll-snap-align: center;
+    }
+
+    .collection-icon > img {
+        width: 80px;              /* ícones maiores no mobile */
+        height: 80px;
+    }
+
+    .collection-row::-webkit-scrollbar {
+        display: none;   /* some a barra no mobile */
+    }
+}

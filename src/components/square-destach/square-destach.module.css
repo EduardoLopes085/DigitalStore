@@ -69,10 +69,15 @@
   z-index: 1;
 }
 
-.square-card:hover::before {
-  transform: scale(1.10);      
-  filter: brightness(1.05);    
+
+@media screen and (min-width : 800px) {
+  .square-card:hover::before {
+    transform: scale(1.10);      
+    filter: brightness(1.05);    
+  }
 }
+
+
 
 
 

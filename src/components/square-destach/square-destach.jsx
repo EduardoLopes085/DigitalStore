@@ -12,7 +12,7 @@ function SquareDestach() {
             <div className={styles['square-card-container']}>
 
                 <div className={styles['square-card']}>
-
+                    
 
 
                 </div>

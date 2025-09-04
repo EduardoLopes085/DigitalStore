@@ -31,7 +31,7 @@ body {
   font-family: var(--fonte-principal);
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
-  background-color: var(--cor-fundo);
+  background-color: #F8F8FE;;
   color: var(--cor-texto);
 }
 

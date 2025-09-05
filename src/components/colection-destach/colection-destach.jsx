@@ -1,9 +1,11 @@
 import React from 'react';
 import styles from '../colection-destach/colection-destach.module.css';
-import camiseta from '../../assets/images/tshirtGray.svg'
-import calca from '../../assets/images/calcaGray.svg'
-import headphone from '../../assets/images/headphoneGray.svg'
-import tenis from '../../assets/images/footGray.svg'
+//import camiseta from '../../assets/images/tshirtGray.svg'
+import Calca from '../../assets/images/calcaGray.svg?react'
+import Headphone from '../../assets/images/headphoneGray.svg?react'
+import Tenis from '../../assets/images/footGray.svg?react'
+import CamisetaIcon from '../../assets/images/tshirtGray.svg?react';
+
 
 function ColectionDestach() {
   return (
@@ -17,7 +19,7 @@ function ColectionDestach() {
                 <div className={styles['collection-item']}>
                     
                     <div className={styles['collection-icon']}>
-                        <img src={camiseta} alt="" />
+                        <CamisetaIcon  />
                     </div>
 
                     <div className={styles['item-text']}>
@@ -29,7 +31,7 @@ function ColectionDestach() {
                 <div className={styles['collection-item']}>
                     
                     <div className={styles['collection-icon']}>
-                        <img src={calca} alt="" />
+                        <Calca/>
                     </div>
 
                     <div className={styles['item-text']}>
@@ -41,7 +43,7 @@ function ColectionDestach() {
                 <div className={styles['collection-item']}>
                     
                     <div className={styles['collection-icon']}>
-                        <img src={calca} alt="" />
+                        <Calca/>
                     </div>
 
                     <div className={styles['item-text']}>
@@ -53,7 +55,7 @@ function ColectionDestach() {
                 <div className={styles['collection-item']}>
                     
                     <div className={styles['collection-icon']}>
-                        <img src={headphone} alt="" />
+                        <Headphone/>
                     </div>
 
                     <div className={styles['item-text']}>
@@ -65,7 +67,7 @@ function ColectionDestach() {
                 <div className={styles['collection-item']}>
                     
                     <div className={styles['collection-icon']}>
-                        <img src={tenis} alt="" />
+                        <Tenis/>
                     </div>
 
                     <div className={styles['item-text']}>

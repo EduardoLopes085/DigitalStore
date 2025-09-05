@@ -16,7 +16,7 @@ function SquareDestach() {
                 <div className={styles['square-card']}>
                     
                   
-                  <DiscountAlert desconto='30%'/>
+                  <DiscountAlert desconto='30% OFF'/>
 
                   <BuyButton message="comprar" 
                   link="https://www.google.com/?hl=pt_BR&zx=1757037742483&no_sw_cr=1"
@@ -28,7 +28,7 @@ function SquareDestach() {
                 <div className={styles['square-card']}>
                     
                   
-                  <DiscountAlert desconto='30%'/>
+                  <DiscountAlert desconto='30% OFF'/>
 
                   <BuyButton message="comprar" 
                   link="https://www.google.com/?hl=pt_BR&zx=1757037742483&no_sw_cr=1"
@@ -40,7 +40,7 @@ function SquareDestach() {
                 <div className={styles['square-card']}>
                     
                   
-                  <DiscountAlert desconto='30%'/>
+                  <DiscountAlert desconto='30% OFF'/>
 
                   <BuyButton message="comprar" 
                   link="https://www.google.com/?hl=pt_BR&zx=1757037742483&no_sw_cr=1"

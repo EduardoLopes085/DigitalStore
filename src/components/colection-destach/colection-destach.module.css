@@ -53,19 +53,27 @@
     padding: 20px;
 }
 
-.collection-icon > img {
+.collection-icon > * {
     width: 64px;
     height: 64px;
     transition: transform 0.3s ease-in-out;
+    color:#8F8F8F
+    
 }
 
-.collection-icon > img:hover {
-    transform: scale(1.2);
+.collection-icon > *:hover {
+  transform: scale(1.2);
+  color: var(--primary);
 }
 
 .item-text {
+    margin-top: 1rem;
     text-align: center;
+    font-family: var(--fonte-principal);
+    color: var(--dark-gray-2);
+    font-weight: 700;
 }
+
 
 
 @media (max-width: 768px) {

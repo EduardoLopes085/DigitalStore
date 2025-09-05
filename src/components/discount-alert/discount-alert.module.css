@@ -1,6 +1,6 @@
 .discount-alert{
   border-radius: 29px;
-  width: 20%;
+  padding: 10px 20px;
   height: 2rem;
 
   display: flex;

@@ -16,7 +16,7 @@ function ColectionDestach() {
             </div>
             <div className={styles['collection-row']}>
 
-                <div className={styles['collection-item']}>
+                <a className={styles['collection-item']} href='#'>
                     
                     <div className={styles['collection-icon']}>
                         <CamisetaIcon  />
@@ -26,9 +26,9 @@ function ColectionDestach() {
                         Camisetas
                     </div>
 
-                </div>
+                </a>
 
-                <div className={styles['collection-item']}>
+                <a className={styles['collection-item']} href='#'>
                     
                     <div className={styles['collection-icon']}>
                         <Calca/>
@@ -38,9 +38,9 @@ function ColectionDestach() {
                         Calças
                     </div>
 
-                </div>
+                </a>
 
-                <div className={styles['collection-item']}>
+                <a className={styles['collection-item']} href='#'>
                     
                     <div className={styles['collection-icon']}>
                         <Calca/>
@@ -50,9 +50,9 @@ function ColectionDestach() {
                         Bonés
                     </div>
 
-                </div>
+                </a>
 
-                <div className={styles['collection-item']}>
+                <a className={styles['collection-item']} href='#'>
                     
                     <div className={styles['collection-icon']}>
                         <Headphone/>
@@ -62,9 +62,9 @@ function ColectionDestach() {
                         Headphones
                     </div>
 
-                </div>
+                </a>
 
-                <div className={styles['collection-item']}>
+                <a className={styles['collection-item']} href='#'>
                     
                     <div className={styles['collection-icon']}>
                         <Tenis/>
@@ -74,7 +74,7 @@ function ColectionDestach() {
                         Tênis
                     </div>
 
-                </div>
+                </a>
             </div>
         </div>
     </div>

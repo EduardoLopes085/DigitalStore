@@ -16,7 +16,9 @@ function Header(){
 
                     <img src={nav} className={styles['navigation-mobile']} alt="botão de abrir o menu de navegação mobile " />
 
-                    <img src={logo} alt="logo da Digital Store" className={styles['shop-logo']}/>
+                    <a href="#">
+                        <img src={logo} alt="logo da Digital Store" className={styles['shop-logo']}/>
+                    </a>
 
                     <input type="text" className={styles['search-input']}  placeholder='Pesquisar produto...'/>
 

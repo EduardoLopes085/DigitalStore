@@ -46,7 +46,9 @@
   height: calc(100% - 28px);
   border-radius: 8px;        
   overflow: hidden;         
-  z-index: 0;               
+  z-index: 0;   
+
+   
 }
 
 
@@ -70,15 +72,35 @@
 }
 
 
+
+
+
+.position{
+  
+
+  
+}
+
+/* .aaaaa{
+  height: 70%;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  
+  margin-left: 1rem;
+  
+} */
+
+
+
 @media screen and (min-width : 800px) {
   .square-card:hover::before {
     transform: scale(1.10);      
     filter: brightness(1.05);    
   }
 }
-
-
-
 
 
 
@@ -120,3 +142,4 @@
 
     
 }
+

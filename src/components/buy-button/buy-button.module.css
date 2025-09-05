@@ -1,0 +1,33 @@
+.buy-button{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  
+  z-index: 1;
+  position: absolute;
+  
+  bottom: 50px;
+  left: 5%;
+
+  height: 3rem;
+  padding: 0 60px;
+  
+  border-radius: 8px;
+
+  font-family: var(--fonte-principal);
+  font-weight: 700;
+  color: var(--primary);
+
+  transition: ease-in-out 0.5s;
+
+  background-color: white;
+
+  cursor: pointer;
+}
+
+
+.buy-button:hover{
+  background-color: var(--primary);
+  color: white;
+}

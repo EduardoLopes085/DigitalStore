@@ -1,5 +1,7 @@
 import React from 'react'
 import styles from '../square-destach/square-destach.module.css'
+import DiscountAlert from '../discount-alert/discountAlert';
+import BuyButton from '../buy-button/buy-button';
 
 function SquareDestach() {
   return (
@@ -13,19 +15,37 @@ function SquareDestach() {
 
                 <div className={styles['square-card']}>
                     
+                  
+                  <DiscountAlert desconto='30%'/>
 
+                  <BuyButton message="comprar" 
+                  link="https://www.google.com/?hl=pt_BR&zx=1757037742483&no_sw_cr=1"
+                  />  
+                  
 
                 </div>
 
                 <div className={styles['square-card']}>
-
                     
+                  
+                  <DiscountAlert desconto='30%'/>
+
+                  <BuyButton message="comprar" 
+                  link="https://www.google.com/?hl=pt_BR&zx=1757037742483&no_sw_cr=1"
+                  />  
+                  
 
                 </div>
 
                 <div className={styles['square-card']}>
-
                     
+                  
+                  <DiscountAlert desconto='30%'/>
+
+                  <BuyButton message="comprar" 
+                  link="https://www.google.com/?hl=pt_BR&zx=1757037742483&no_sw_cr=1"
+                  />  
+                  
 
                 </div>
 

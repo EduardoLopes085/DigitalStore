@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from '../square-destach/square-destach.module.css'
 import DiscountAlert from '../discount-alert/discountAlert';
-import BuyButton from '../buy-button/buy-button';
+import PositionButton from '../position-button/position-button';
 
 function SquareDestach() {
   return (
@@ -18,8 +18,10 @@ function SquareDestach() {
                   
                   <DiscountAlert desconto='30% OFF'/>
 
-                  <BuyButton message="comprar" 
+                  <PositionButton message="comprar" 
                   link="https://www.google.com/?hl=pt_BR&zx=1757037742483&no_sw_cr=1"
+
+                  comboClass={styles['button-configuration']}
                   />  
                   
 
@@ -30,8 +32,10 @@ function SquareDestach() {
                   
                   <DiscountAlert desconto='30% OFF'/>
 
-                  <BuyButton message="comprar" 
+                  <PositionButton message="comprar" 
                   link="https://www.google.com/?hl=pt_BR&zx=1757037742483&no_sw_cr=1"
+
+                  comboClass={styles['button-configuration']}
                   />  
                   
 
@@ -42,8 +46,10 @@ function SquareDestach() {
                   
                   <DiscountAlert desconto='30% OFF'/>
 
-                  <BuyButton message="comprar" 
+                  <PositionButton message="comprar" 
                   link="https://www.google.com/?hl=pt_BR&zx=1757037742483&no_sw_cr=1"
+
+                  comboClass={styles['button-configuration']}
                   />  
                   
 

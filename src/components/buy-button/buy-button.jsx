@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from '../buy-button/buy-button.module.css'
+import styles from './buy-button.module.css'
 
 function BuyButton(props) {
   return (

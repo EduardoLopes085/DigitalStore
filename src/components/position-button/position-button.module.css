@@ -1,4 +1,4 @@
-.buy-button{
+.position-button{
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -6,19 +6,24 @@
   
   
 
-  
+  height: 3rem;
+  padding: 0 60px;
   
   border-radius: 8px;
 
   font-family: var(--fonte-principal);
   font-weight: 700;
-  color: white;
+  color: var(--primary);
 
   transition: ease-in-out 0.5s;
 
-  background-color: var(--primary);
+  background-color: white;
 
   cursor: pointer;
 }
 
 
+.position-button:hover{
+  background-color: var(--primary);
+  color: white;
+}

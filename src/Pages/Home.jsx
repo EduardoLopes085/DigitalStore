@@ -3,6 +3,7 @@ import Slider from "../components/swipper/swipper-home.jsx";
 import SquareDestach from "../components/square-destach/square-destach.jsx";
 import ColectionDestach from "../components/colection-destach/colection-destach.jsx";
 import SpecialOffer from "../components/special-offer/special-offer.jsx";
+import Footer from "../components/Footer/footer.jsx";
 
 function Home(){
 
@@ -13,6 +14,7 @@ function Home(){
             <SquareDestach/>
             <ColectionDestach/>
             <SpecialOffer/>
+            <Footer/>
         </>
        
     );

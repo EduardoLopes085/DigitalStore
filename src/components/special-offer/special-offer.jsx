@@ -9,7 +9,7 @@ function SpecialOffer() {
         <div className={styles['special-offer-wrapper']}>
 
             <div className={styles['offer-image']}>
-                <img src={imagem} alt="" />
+              <img src={imagem} alt="" />
             </div>
 
             <div className={styles['offer-text']}>
@@ -18,13 +18,15 @@ function SpecialOffer() {
                 <h2>Air Jordan edição de colecionador</h2>
 
                 <p> 
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip 
-                    
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip   
                 </p>
 
-                
+                <BuyButton 
+                  message="Ver Oferta"
+                  link = "www.google.com.br"
+                />
 
             </div>
 

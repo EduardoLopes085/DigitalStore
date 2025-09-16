@@ -19,6 +19,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
+    
 }
 
 
@@ -26,13 +28,49 @@
     width: 100%;
     height: calc(100% - 34px);
     
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    border-bottom: 2px solid rgba(255, 255, 255, 0.3);
     
 }
 
 
 .logo-column{
+    width: 20%;
+    height: 90%;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-evenly;
 
+
+    
+    
 }
+
+.logo-text{
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.social-row{
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+    
+    
+}
+
+
 
 .info-column{
 

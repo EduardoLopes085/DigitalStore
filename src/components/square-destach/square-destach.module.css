@@ -1,4 +1,4 @@
-.square-destach{    
+.square-destach {    
   width: 100%;
   height: 40dvh;
 
@@ -10,10 +10,9 @@
   margin-top: 1rem;
 }
 
-.square-container{
+.square-container {
   width: 90%;
   height: 100%;
-    
 
   display: flex;
   flex-direction: column;
@@ -21,7 +20,7 @@
   justify-content: space-between;
 }
 
-.square-title{
+.square-title {
   font-family: var(--fonte-principal);
   color: var(--dark-gray-2);
   font-size: 28px;
@@ -29,7 +28,7 @@
   letter-spacing: 0.75;
 }
 
-.square-card-container{
+.square-card-container {
   width: 100%;
   height: calc(100% - 28px);
     
@@ -39,7 +38,7 @@
   justify-content: space-between;
 }
 
-
+/* Card base (genérico para todos) */
 .square-card {
   position: relative;        
   width: 30%;
@@ -47,16 +46,16 @@
   border-radius: 8px;        
   overflow: hidden;         
   z-index: 0;   
-
-   
 }
 
-
+/* Pseudo-elemento compartilhado */
 .square-card::before {
   content: "";                             
   position: absolute;                     
   inset: 0;                                
-  background: url('../../assets/images/collection-1.png') center / cover no-repeat; 
+  background-size: cover; 
+  background-position: center;
+  background-repeat: no-repeat;
   transform: scale(1);                     
   transform-origin: center center;         
   transition: transform .6s ease, filter .6s ease; 
@@ -65,16 +64,28 @@
   z-index: 0;                              
 }
 
+/* Variantes de imagens */
+.square-card--supreme::before {
+  background-image: url('../../assets/images/collection-1.png'); 
+}
 
+.square-card--adidas::before {
+  background-image: url('../../assets/images/collection-2.png'); 
+}
+
+.square-card--bass::before {
+  background-image: url('../../assets/images/collection-3.png'); 
+}
+
+/* Garante que os elementos dentro do card fiquem acima da imagem */
 .square-card > * {
   position: relative;
   z-index: 1;
 }
 
-.button-configuration{
+.button-configuration {
   z-index: 1;
   position: absolute;
-  
   bottom: 50px;
   left: 5%;
 }

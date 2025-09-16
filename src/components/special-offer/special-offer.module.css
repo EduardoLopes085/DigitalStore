@@ -63,3 +63,44 @@
     line-height: 28px;
     letter-spacing: 0.75px;
 }
+
+@media screen and (max-width : 768px) {
+    .special-offer-container{
+        width: 100%;
+        height: auto;
+
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+
+        background-color: #FFFFFF;
+   
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    
+    .special-offer-wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center; 
+
+       
+    }
+
+    .offer-text{
+        height: 100%;
+        width: 100%;
+
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: center;
+        gap: 18px;
+
+       
+    }
+}

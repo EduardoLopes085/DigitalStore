@@ -42,19 +42,35 @@
 
 ## SOBRE
 
-**DRIPSTORE** é uma aplicação frontend desenvolvida em **React** que simula um e-commerce de roupas streetwear.  
-O objetivo do projeto é praticar conceitos de **componentização, gerenciamento de estado, rotas e consumo de APIs** dentro de uma aplicação moderna.
+**DRIPSTORE** é uma aplicação frontend desenvolvida em **React** que simula um e-commerce de roupas streetwear.
+Este projeto é uma releitura da versão original, com foco em corrigir limitações, aplicar melhorias e adicionar novas funcionalidades, tanto no frontend quanto no backend, para oferecer uma experiência mais completa e moderna.
+
 
 [![Figma](https://img.shields.io/badge/Figma-Design-blue?style=flat&logo=figma&logoColor=white)](https://www.figma.com/design/cfb4F7ZXMFQmvmTn3PKI4z/DRIP-STORE---DIGITAL-COLLEGE?node-id=101-2&p=f&t=UWydJ5o841N4gIQZ-0)
 
 ---
 
-## FUNCIONALIDADES
+## PÁGINAS
+
+- [ ] Frontpage ⚡ **Loading...** → Funcionalidades em desenvolvimento  
+- [ ] Página de produtos ⚡ **Loading...** → Funcionalidades em desenvolvimento 
+- [ ] Single Produto ⚡ **Loading...** → Funcionalidades em desenvolvimento  
+- [ ] Página de carrinho de compras ⚡ **Loading...** → Funcionalidades em desenvolvimento 
+- [ ] Balão flutuante de carrinho ⚡ **Loading...** → Funcionalidades em desenvolvimento
+- [ ] Tela de Meus Pedidos ⚡ **Loading...** → Funcionalidades em desenvolvimento
+- [ ] Tela de Minhas Informações ⚡ **Loading...** → Funcionalidades em desenvolvimento
+- [ ] Tela de formas de pagamento ⚡ **Loading...** → Funcionalidades em desenvolvimento
+- [ ] Tela de conclusão de pedido ⚡ **Loading...** → Funcionalidades em desenvolvimento
+- [ ] Tela de Login ⚡ **Loading...** → Funcionalidades em desenvolvimento
+- [ ] Tela de Cadastro ⚡ **Loading...** → Funcionalidades em desenvolvimento 
+
+---
+
+## FUNCIONALIDADES BACKEND
 
 - [ ] Listagem de produtos por categorias ⚡ **Loading...** → Funcionalidades em desenvolvimento  
-- [ ] Página de detalhes do produto ⚡ **Loading...** → Funcionalidades em desenvolvimento  
 - [ ] Carrinho de compras ⚡ **Loading...** → Funcionalidades em desenvolvimento
-- [ ] Autenticação de usuário ⚡ **Loading...** → Funcionalidades em desenvolvimento 
+- [ ] CRUD de usuários ⚡ **Loading...** → Funcionalidades em desenvolvimento 
 - [ ] Integração com API de pagamentos ⚡ **Loading...** → Funcionalidades em desenvolvimento
 
 ---
@@ -107,6 +123,7 @@ As seguintes ferramentas foram utilizadas na construção do projeto:
 - **[JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)** → Linguagem de programação principal 
 - **[React Router Dom](https://reactrouter.com/)** → Navegação entre páginas
 - **[SwiperJs](https://swiperjs.com/react)** → Swipers
+- **[SVGr](https://www.npmjs.com/package/vite-plugin-svgr)** → Plug Vite para utilizar imagens SVGs como componentes
 - ⚡ **Loading...** → Dependências em constante atualização
 
 > Confira todas as dependências em [package.json](https://github.com/EduardoLopes085/DigitalStore/blob/main/package.json)
@@ -130,9 +147,9 @@ As seguintes ferramentas foram utilizadas na construção do projeto:
 
 ## License
 
-This project is under the license [MIT](./LICENSE).
+Esse projeto está sobre a licença [MIT](./LICENSE).
 
-Made with hard work and dedication by Eduardo Lopes 🥷 [Get in Touch!](https://www.linkedin.com/in/eduardolopesdev/)
+Feito com dedicação por Eduardo Lopes 🥷 [Entre em contato!](https://www.linkedin.com/in/eduardolopesdev/)
 
 ---
 

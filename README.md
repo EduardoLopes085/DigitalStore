@@ -33,8 +33,8 @@
 
 <p align="center">
  <a href="#sobre">Sobre</a> •
- <a href="#FUNCIONALIDADES">Funcionalidades</a> •
- <a href="Funcionamento">Funcionamento</a> • 
+ <a href="#PAGINAS">Páginas</a> •
+ <a href="#FUNCIONALIDADES">Funcionalidades</a> • 
  <a href="#tech-stack">Tech Stack</a> •  
  <a href="#author">Author</a> • 
  <a href="#user-content-license">License</a>
@@ -50,7 +50,7 @@ Este projeto é uma releitura da versão original, com foco em corrigir limitaç
 
 ---
 
-## PÁGINAS
+## PAGINAS
 
 - [ ] Frontpage ⚡ **Loading...** → Funcionalidades em desenvolvimento  
 - [ ] Página de produtos ⚡ **Loading...** → Funcionalidades em desenvolvimento 
@@ -66,7 +66,7 @@ Este projeto é uma releitura da versão original, com foco em corrigir limitaç
 
 ---
 
-## FUNCIONALIDADES BACKEND
+## FUNCIONALIDADES
 
 - [ ] Listagem de produtos por categorias ⚡ **Loading...** → Funcionalidades em desenvolvimento  
 - [ ] Carrinho de compras ⚡ **Loading...** → Funcionalidades em desenvolvimento

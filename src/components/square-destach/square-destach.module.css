@@ -38,7 +38,7 @@
   justify-content: space-between;
 }
 
-/* Card base (genérico para todos) */
+
 .square-card {
   position: relative;        
   width: 30%;
@@ -48,7 +48,7 @@
   z-index: 0;   
 }
 
-/* Pseudo-elemento compartilhado */
+
 .square-card::before {
   content: "";                             
   position: absolute;                     
@@ -77,7 +77,7 @@
   background-image: url('../../assets/images/collection-3.png'); 
 }
 
-/* Garante que os elementos dentro do card fiquem acima da imagem */
+
 .square-card > * {
   position: relative;
   z-index: 1;
@@ -90,7 +90,7 @@
   left: 5%;
 }
 
-/* Hover no desktop */
+
 @media screen and (min-width: 800px) {
   .square-card:hover::before {
     transform: scale(1.10);      
@@ -98,7 +98,7 @@
   }
 }
 
-/* Responsividade mobile */
+
 @media screen and (max-width: 768px) {
   .square-destach {
     width: 100%;

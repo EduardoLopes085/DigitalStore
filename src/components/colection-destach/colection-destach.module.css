@@ -76,7 +76,10 @@
 
 
 
-@media (max-width: 768px) {
+@media (max-width: 500px) {
+    
+    
+    
     .collection-row {
         width: 100%;              /* ocupa toda a largura */
         justify-content: flex-start;

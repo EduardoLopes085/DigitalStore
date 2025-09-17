@@ -31,15 +31,70 @@ function Footer() {
                 </div>
 
                 <div className={styles['info-column']}>
-                    
+                   <h1>Informação</h1>
+
+                  <a href="">
+                    Sobre Drip Store
+                  </a>
+                  
+                  <a href="">
+                    Segurança
+                  </a>
+                  
+                  <a href="">
+                    Wishlist
+                  </a>
+                  
+                  <a href="">
+                    Blog
+                  </a>
+                  
+                  <a href="">
+                    Trabalhe conosco
+                  </a>
+                  
+                  <a href="">
+                    Meus Pedidos
+                  </a>
+
                 </div>
 
                 <div className={styles['category-column']}>
+                  <h1>Categorias</h1>
 
+                  <a href="">
+                    Camisetas
+                  </a>
+                  
+                  <a href="">
+                    Calças
+                  </a>
+                  
+                  <a href="">
+                    Bonés
+                  </a>
+                  
+                  <a href="">
+                    Headphones
+                  </a>
+                  
+                  <a href="">
+                    Tênis
+                  </a>
                 </div>
 
                 <div className={styles['contact-column']}>
+                  <h1>
+                    Contato
+                  </h1>
 
+                  <p>
+                    Av. Santos Dumont, 1510 - 1° andar - Aldeota, Fortaleza - CE, 60150-161
+                  </p>
+
+                  <p>
+                    (85) 3051-3411
+                  </p>
                 </div>
             </div>
 

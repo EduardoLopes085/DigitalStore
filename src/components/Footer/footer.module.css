@@ -9,8 +9,8 @@
     align-items: center;
     justify-content: center;
 
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    
+    
 }
 
 .footer-wrapper{
@@ -168,7 +168,8 @@
 
 @media (max-width: 500px) {
   .footer-container{
-    height: 100vh;
+    height: 100dvh;
+    padding-bottom: 2rem;
   }
   
     .footer-top {

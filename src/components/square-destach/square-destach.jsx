@@ -11,7 +11,7 @@ function SquareDestach() {
   ];
 
   return (
-    <div className={styles['square-destach']}>
+    <section className={styles['square-destach']}>
       <div className={styles['square-container']}>
         <h2 className={styles['square-title']}>
           Coleções em Destaque
@@ -33,7 +33,7 @@ function SquareDestach() {
           ))}
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 

@@ -9,7 +9,7 @@ import CamisetaIcon from '../../assets/images/tshirtGray.svg?react';
 
 function ColectionDestach() {
   return (
-    <div className={styles['collection-destach']}>
+    <section className={styles['collection-destach']}>
         <div className={styles['collection-container']}>
             <div className={styles['collection-title']}>
                 Coleções em destaque
@@ -77,7 +77,7 @@ function ColectionDestach() {
                 </a>
             </div>
         </div>
-    </div>
+    </section>
   )
 }
 

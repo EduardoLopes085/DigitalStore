@@ -7,7 +7,7 @@ import twitter from '../../assets/icons/twitter.svg'
 
 function Footer() {
   return (
-    <div className={styles['footer-container']}>
+    <footer className={styles['footer-container']}>
         <div className={styles['footer-wrapper']}>
 
             <div className={styles['footer-top']}>
@@ -102,7 +102,7 @@ function Footer() {
                 @2022 Digital College
             </div>
         </div>
-    </div>
+    </footer>
   )
 }
 

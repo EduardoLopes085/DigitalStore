@@ -5,7 +5,7 @@ import imagem from '../../assets/images/Laye 1.png'
 
 function SpecialOffer() {
   return (
-    <div className={styles['special-offer-container']}>
+    <section className={styles['special-offer-container']}>
         <div className={styles['special-offer-wrapper']}>
 
             <div className={styles['offer-image']}>
@@ -33,7 +33,7 @@ function SpecialOffer() {
 
 
         </div>
-    </div>
+    </section>
   )
 }
 

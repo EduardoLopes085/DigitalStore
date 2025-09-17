@@ -9,6 +9,9 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
+
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 .special-offer-wrapper{

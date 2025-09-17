@@ -4,6 +4,7 @@ import SquareDestach from "../components/square-destach/square-destach.jsx";
 import ColectionDestach from "../components/colection-destach/colection-destach.jsx";
 import SpecialOffer from "../components/special-offer/special-offer.jsx";
 import Footer from "../components/Footer/footer.jsx";
+import ProductGrid from "../components/Product-Grid/product-grid.jsx";
 
 function Home(){
 
@@ -13,6 +14,7 @@ function Home(){
             <Slider/>
             <SquareDestach/>
             <ColectionDestach/>
+            <ProductGrid/>
             <SpecialOffer/>
             <Footer/>
         </>

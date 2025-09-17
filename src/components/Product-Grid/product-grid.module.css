@@ -1,0 +1,31 @@
+.product-grid-container{
+    width: 100%;
+    min-height: 70dvh;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+    background-color: aqua;
+}
+
+
+.product-grid-wrapper{
+    width: 90%;
+    height: 100%;
+
+    background-color: rebeccapurple;
+    
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    grid-row-gap: 1rem;
+    grid-column-gap: 1rem;
+
+
+}

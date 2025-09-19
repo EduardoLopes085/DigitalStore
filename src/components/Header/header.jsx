@@ -18,7 +18,7 @@ function Header({variant = "default"}){
                         <img src={nav} className={styles['navigation-mobile']} alt="botão de abrir o menu de navegação mobile " />
                     )}
                     
-                    <a href="#" className={styles['shop-logo']}>
+                    <a href="/" className={styles['shop-logo']}>
                         <img src={logo} alt="logo da Digital Store" />
                     </a>
                     
@@ -30,7 +30,7 @@ function Header({variant = "default"}){
 
                             <img src={search} alt="imagem de uma lupa" className={styles['search-mobile']}/>
 
-                            <a href="" className={styles['register-button']}> Cadastre-se </a>
+                            <a href="/register" className={styles['register-button']}> Cadastre-se </a>
 
                             <button className={styles['login-button']}> Entrar </button>
 

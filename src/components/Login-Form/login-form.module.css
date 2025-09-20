@@ -122,3 +122,25 @@
 .margin-top{
     margin-top: 25%;
 }
+
+
+
+@media screen and (max-width: 500px) {
+    .register-container{
+      padding: 50px 0px;  
+    }
+    
+    
+    .image-wrapper{
+        display: none;
+    }
+
+    .register-form{
+        width: 90%;
+        padding: 70px 20px;
+    }
+
+    .register-wrapper{
+        justify-content: center;
+    }
+}

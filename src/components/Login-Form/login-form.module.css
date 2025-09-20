@@ -1,25 +1,21 @@
 .register-container{
     width: 100%;
-    height: 75dvh;
-
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-
     background: var(--secondary-gradient);
+    user-select: none;
 }
 
 
 .register-wrapper{
     width: 90%;
-    height: 100%;
-
+    height: auto;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-
 }
 
 .image-wrapper{
@@ -27,18 +23,13 @@
     flex-direction: row;
 }
 
-
-
 .register-form{
     display: flex;
     flex-direction: column;
-    align-items: start;
+    width: 40%;
     gap: 16px;
-    
-    padding: 40px 20px;
-
-
-
+    padding: 70px 70px;
+    border-radius: 4px;
     background-color: white;
 }
 
@@ -60,6 +51,13 @@
     font-weight: 400;
 }
 
+.register-form form{
+    display: flex;
+    flex-direction: column;
+    
+    gap: 15px;
+}
+
 .register-form > div a{
     text-decoration: underline;
 }
@@ -70,8 +68,7 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: start;
-    gap: 4px;
-    
+    gap: 4px;   
 }
 
 .login-row label, .password-row label{
@@ -79,26 +76,20 @@
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.75px;
-
 }
 
 .login-row input, .password-row input{
     color: var(--dark-gray-3);
-    background-color: #F5F5F5;  
-    
+    background-color: #F5F5F5;     
     padding: 10px 40px 10px 10px;
     border-radius: 8px;
+    width: 100%;
 }
 
 .login-row input:focus, .password-row input:focus{
     outline: none;
     border: none;
 }
-
-.password-row{
-
-}
-
 
 .forgot-password{
     font-size: 14px;
@@ -108,8 +99,26 @@
     text-decoration: underline;
 }
 
+.register-button{
+    background-color: var(--primary);
+    color: white;
+    padding: 15px 30px 15px 30px;
+    border-radius: 8px;
+    width: 100%;
+} 
+
+.auther-login{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;   
+}
 
 
-.image-wrapper{
+.auther-login img{
+    cursor: pointer;
+}
 
+.margin-top{
+    margin-top: 25%;
 }

@@ -12,7 +12,9 @@ function RegisterForm() {
 
                 <form action="">
                     <fieldset>
-                        <legend>Informações Pessoais</legend>
+                        {/* <legend>Informações Pessoais</legend> */}
+
+                        <h1>Informações pessoais</h1>
 
                         <div className={styles['field-row']}>
                             <label htmlFor="">Nome Completo*</label>
@@ -28,7 +30,6 @@ function RegisterForm() {
                             type="text"
                         />
                         </div>
-
 
                         <div className={styles['field-row']}>
                             <label htmlFor="">E-mail*</label>
@@ -48,7 +49,9 @@ function RegisterForm() {
                     </fieldset>
 
                     <fieldset>
-                        <legend>Informações de Entrega</legend>
+                        {/* <legend>Informações de Entrega</legend> */}
+
+                        <h1>Informações de entrega</h1>
 
                         <div className={styles['field-row']}>
                             <label htmlFor="">CEP*</label>

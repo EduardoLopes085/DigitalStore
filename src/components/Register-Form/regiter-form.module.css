@@ -15,32 +15,47 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-
     padding: 40px 0px;
-    
 }
 
-.register-wrapper div{
-    background-color: white;
 
-    
+
+.register-wrapper div{
+   
 }
 
 form{
     display: flex;
     flex-direction: column;
-    gap: 2rem;
-
-    
-    
+    gap: 1rem;
 }
 
 fieldset{
+    border: none; /* remove a borda do fieldset */
+    gap: 1rem;
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    background-color: white;
+    padding: 20px 20px;
+    border-radius: 8px;
+}
 
-    padding: 16px 0px;
+fieldset h1{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.75px;
+    color: var(--dark-gray-2);
+
+    border-bottom: solid 1px var(--dark-gray-2);
+}
+
+legend {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.75px;
+  
 }
 
 .field-row{
@@ -48,8 +63,13 @@ fieldset{
     flex-direction: column;
     align-items: flex-start;
     justify-content: start;
-    gap: 1rem;  
+    gap: 5px;  
+}
 
+.field-row label{
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: 0.75px;
     
 }
 
@@ -70,8 +90,7 @@ fieldset{
     
 }
 
-.checkbox-row input[type="checkbox"]{
-    
+.checkbox-row input[type="checkbox"]{  
     accent-color: var(--primary);
 }
 
@@ -81,7 +100,6 @@ fieldset{
     font-size: 16px;
     line-height: 22px;
     letter-spacing: 0.75px;
-
 }
 
 .checkbox-row{
@@ -89,17 +107,12 @@ fieldset{
 }
 
 .register-button{
-   
-    
     font-weight: 700;
     font-size: 16px;
     letter-spacing: 0.75px;
     line-height: 24px;
     text-align: center;
-    
-    
     align-self: center;
-
     background-color: var(--primary);
     color: white;
     padding: 15px 30px 15px 30px;

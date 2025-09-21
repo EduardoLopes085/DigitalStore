@@ -67,3 +67,15 @@
     letter-spacing: 0.75px;
     color: black;
 }
+
+
+@media screen and (max-width: 500px) {
+    
+    .price-row{
+        display: flex;
+        flex-direction: row;
+        gap: 5px;
+    }
+
+
+}

@@ -2,12 +2,12 @@ import React from 'react'
 import styles from './product-card.module.css'
 import sneaker from '../../assets/products/Layer 1aa 2.png'
 
-function ProductCard(props) {
+function ProductCard() {
   return (
     <div className={styles['product-card']}>
       
       <div className={styles['product-card-image']}>
-        <img src={sneaker} alt="" />
+        <img src={sneaker} alt="foto do tênis K-Swiss v8 masculino" />
       </div>
       
 

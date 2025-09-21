@@ -5,9 +5,9 @@ import ColectionDestach from "../components/colection-destach/colection-destach.
 import SpecialOffer from "../components/special-offer/special-offer.jsx";
 import Footer from "../components/Footer/footer.jsx";
 import ProductGrid from "../components/Product-Grid/product-grid.jsx";
-import ProductCard from "../components/Product-Card/product-card.jsx";
 
-function Home(){
+
+function HomePage(){
 
     return(
         <>
@@ -16,8 +16,6 @@ function Home(){
             <SquareDestach/>
             <ColectionDestach/>
             <ProductGrid/>
-            
-
             <SpecialOffer/>
             <Footer/>
         </>
@@ -26,4 +24,4 @@ function Home(){
 }
 
 
-export default Home;
+export default HomePage;

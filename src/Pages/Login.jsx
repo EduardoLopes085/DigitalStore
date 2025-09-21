@@ -3,7 +3,7 @@ import Footer from "../components/Footer/footer.jsx";
 import LoginForm from "../components/Login-Form/login-form.jsx";
 
 
-function Register(){
+function LoginPage(){
 
     return(
         <>
@@ -16,4 +16,4 @@ function Register(){
 }
 
 
-export default Register;
+export default LoginPage;

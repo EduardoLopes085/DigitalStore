@@ -124,6 +124,7 @@ As seguintes ferramentas foram utilizadas na construção do projeto:
 - **[React Router Dom](https://reactrouter.com/)** → Navegação entre páginas
 - **[SwiperJs](https://swiperjs.com/react)** → Swipers
 - **[SVGr](https://www.npmjs.com/package/vite-plugin-svgr)** → Plug Vite para utilizar imagens SVGs como componentes
+- **[React-Imask](https://www.npmjs.com/package/react-native-imask)** → Biblioteca de máscaras para inputs de formulários
 - ⚡ **Loading...** → Dependências em constante atualização
 
 > Confira todas as dependências em [package.json](https://github.com/EduardoLopes085/DigitalStore/blob/main/package.json)

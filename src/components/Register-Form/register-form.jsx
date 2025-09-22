@@ -18,7 +18,7 @@ function RegisterForm() {
 
                         <div className={styles['field-row']}>
                             <label htmlFor="">Nome Completo*</label>
-                            <input type="text" placeholder='Insira seu nome'/>
+                            <input type="text" placeholder='Insira seu nome' required/>
                         </div>
 
                         <div className={styles['field-row']}>
@@ -28,12 +28,13 @@ function RegisterForm() {
                             id="cpf-input"
                             placeholder="Insira seu CPF"
                             type="text"
+                            required
                         />
                         </div>
 
                         <div className={styles['field-row']}>
                             <label htmlFor="">E-mail*</label>
-                            <input type="email" placeholder='Insira seu e-mail' />
+                            <input type="email" placeholder='Insira seu e-mail' required/>
                         </div>
 
                         <div className={styles['field-row']}>
@@ -43,6 +44,7 @@ function RegisterForm() {
                                 id="celular-input"
                                 placeholder="Insira seu celular"
                                 type="text"
+                                required
                             />
                         </div>
 
@@ -61,22 +63,23 @@ function RegisterForm() {
                                 id="cep-input"
                                 placeholder="Insira seu cep"
                                 type="text"
+                                required
                             />
                         </div>
 
                         <div className={styles['field-row']}>
                             <label htmlFor="">RUA*</label>
-                            <input type="text" placeholder='Insira sua rua'/>
+                            <input type="text" placeholder='Insira sua rua' required/>
                         </div>
 
                         <div className={styles['field-row']}>
                             <label htmlFor="">Bairro*</label>
-                            <input type="text" placeholder='Insira seu bairro'/>
+                            <input type="text" placeholder='Insira seu bairro' required/>
                         </div>
 
                         <div className={styles['field-row']}>
                             <label htmlFor="">Cidade*</label>
-                            <input type="text" placeholder='Insira sua cidade'/>
+                            <input type="text" placeholder='Insira sua cidade' required/>
                         </div>
 
                         <div className={styles['field-row']}>

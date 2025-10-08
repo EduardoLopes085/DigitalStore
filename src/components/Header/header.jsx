@@ -32,7 +32,7 @@ function Header({variant = "default"}){
 
                             <a href="/register" className={styles['register-button']}> Cadastre-se </a>
 
-                            <button className={styles['login-button']}> Entrar </button>
+                            <a href='/login' className={styles['login-button']}> Entrar </a>
 
                             <a className={styles['cart-button']} href="#">
                                 <img src={cart} alt="imagem de um carrinho de compras" />

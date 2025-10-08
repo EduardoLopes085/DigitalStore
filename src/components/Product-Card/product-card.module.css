@@ -22,11 +22,12 @@
 
 .product-card-image{
     background-color: white;
+    width: 100%;
 }
 
 
 .product-card-description{
-
+    width: 100%;
 }
 
 

@@ -2,31 +2,31 @@ import React from 'react'
 import styles from './product-card.module.css'
 import sneaker from '../../assets/products/Layer 1aa 2.png'
 
-function ProductCard() {
+function ProductCard(props) {
   return (
     <div className={styles['product-card']}>
       
       <div className={styles['product-card-image']}>
-        <img src={sneaker} alt="foto do tênis K-Swiss v8 masculino" />
+        <img src={props.img} alt="foto do tênis K-Swiss v8 masculino" />
       </div>
       
 
       <div className={styles['product-card-description']}>
         <h3 className={styles['product-card-category']}>
-          Tênis
+          {props.categoria}
         </h3>
 
         <h1 className={styles['product-name']}>
-          K-Swiss V8 - Masculino
+          {props.name} - {props.gender}
         </h1>
 
         <div className={styles['price-row']}>
           <p className={styles.price}>
-            R$ 200
+            R$ {props.price}
           </p>
 
           <p className={styles.discount}>
-            R$ 100
+            R$ {props.discountPrice}
           </p>
         </div>
       </div>

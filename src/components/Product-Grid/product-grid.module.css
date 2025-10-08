@@ -24,15 +24,18 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: auto;
-    grid-row-gap: 1rem;
+    grid-row-gap: 2rem;
     grid-column-gap: 1rem;
     grid-auto-rows: auto;
 
 }
 
+
+
 @media screen and (max-width: 500px) {
     .product-grid-wrapper{
         grid-template-columns: repeat(2, 1fr);
         grid-column-gap: 10px;
+        grid-row-gap: 2rem;
     }
 }

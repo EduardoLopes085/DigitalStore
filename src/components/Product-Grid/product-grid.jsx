@@ -2,6 +2,8 @@ import React from 'react'
 import styles from './product-grid.module.css'
 import ProductCard from '../Product-Card/product-card'
 import sneaker from '../../assets/products/sneaker-photo.png'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
 
 function ProductGrid() {
   
@@ -18,22 +20,29 @@ function ProductGrid() {
   
   return (
     <section className={styles['product-grid-container']}>
-        <div className={styles['product-grid-wrapper']}>
-
-          {sneakers.map((produto) =>{
-            return (
-            <ProductCard 
-              key = {produto.id}
-              img = {produto.img}
-              categoria = {produto.categoria}
-              name = {produto.name}
-              gender = {produto.gender}
-              price = {produto.price}
-              discountPrice = {produto.discountPrice}
-            />
-          )})}
-          
+      <div >
+        <div className={styles.row}>
+          <p>Pordutos em alta</p>
+          <a href="/produtos">
+            Ver todos
+            <FontAwesomeIcon icon={faArrowRight} className={styles.icon} />
+          </a>
         </div>
+        <div className={styles['product-grid-wrapper']}>
+          {sneakers.map((produto) =>{
+              return (
+              <ProductCard
+                key = {produto.id}
+                img = {produto.img}
+                categoria = {produto.categoria}
+                name = {produto.name}
+                gender = {produto.gender}
+                price = {produto.price}
+                discountPrice = {produto.discountPrice}
+              />
+            )})}
+        </div>
+      </div>
     </section>
   )
 }

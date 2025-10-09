@@ -1,11 +1,13 @@
 import React from 'react'
 import styles from './product-card.module.css'
-import sneaker from '../../assets/products/Layer 1aa 2.png'
+import DiscountAlert from '../discount-alert/discountAlert';
 
 function ProductCard(props) {
   return (
     <div className={styles['product-card']}>
       
+      <DiscountAlert desconto={props.discount} />
+
       <div className={styles['product-card-image']}>
         <img src={props.img} alt="foto do tênis K-Swiss v8 masculino" />
       </div>

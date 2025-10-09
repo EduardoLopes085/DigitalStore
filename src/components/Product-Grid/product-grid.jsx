@@ -8,7 +8,7 @@ import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
 function ProductGrid() {
   
   const sneakers = [
-        { id: 0, img: sneaker, categoria: 'Tênis', name: 'K-Swiss V8', gender: 'masculino', price: 200, discountPrice: 100 },
+        { id: 0, img: sneaker, categoria: 'Tênis', name: 'K-Swiss V8', gender: 'masculino', price: 200, discountPrice: 100,  },
         { id: 1, img: sneaker, categoria: 'Tênis', name: 'Nike Revolution', gender: 'masculino', price: 319.99, discountPrice: 219.99 },
         { id: 2, img: sneaker, categoria: 'Tênis', name: 'Asics Gel-Nimbus', gender: 'feminino', price: 749.99, discountPrice: 649.99 },
         { id: 3, img: sneaker, categoria: 'Tênis', name: 'Reebok Nano X3', gender: 'masculino', price: 499.99, discountPrice: 449.99 },
@@ -39,6 +39,7 @@ function ProductGrid() {
                 gender = {produto.gender}
                 price = {produto.price}
                 discountPrice = {produto.discountPrice}
+                discount={(((produto.price - produto.discountPrice) / produto.price) * 100).toFixed(0)}
               />
             )})}
         </div>

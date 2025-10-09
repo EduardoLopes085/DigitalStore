@@ -4,7 +4,7 @@ import styles from '../discount-alert/discount-alert.module.css'
 function DiscountAlert(props) {
   return (
     <div className={styles['discount-alert']}>
-        {props.desconto}
+        {props.desconto}% OFF
     </div>
   )
 }

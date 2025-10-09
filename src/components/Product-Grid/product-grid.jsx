@@ -14,7 +14,8 @@ function ProductGrid() {
         { id: 3, img: sneaker, categoria: 'Tênis', name: 'Reebok Nano X3', gender: 'masculino', price: 499.99, discountPrice: 449.99 },
         { id: 4, img: sneaker, categoria: 'Tênis', name: 'Mizuno Wave Prophecy', gender: 'feminino', price: 999.99, discountPrice: 899.99 },
         { id: 5, img: sneaker, categoria: 'Tênis', name: 'Adidas Ultraboost', gender: 'feminino', price: 599.99, discountPrice: 499.99 },
-        { id: 6, img: sneaker, categoria: 'Tênis', name: 'Puma RS-X', gender: 'masculino', price: 399.99, discountPrice: 349.99 }
+        { id: 6, img: sneaker, categoria: 'Tênis', name: 'Puma RS-X', gender: 'masculino', price: 399.99, discountPrice: 349.99 },
+        { id: 7, img: sneaker, categoria: 'Tênis', name: 'Puma RS-X', gender: 'masculino', price: 399.99, discountPrice: 399.99 }
     ];
   
   

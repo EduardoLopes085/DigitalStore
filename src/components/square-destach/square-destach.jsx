@@ -5,9 +5,9 @@ import PositionButton from '../position-button/position-button';
 
 function SquareDestach() {
   const cards = [
-    { modifier: 'square-card--supreme', desconto: '30' },
-    { modifier: 'square-card--adidas', desconto: '30' },
-    { modifier: 'square-card--bass', desconto: '30' },
+    { modifier: 'square-card--supreme', desconto: 30 },
+    { modifier: 'square-card--adidas', desconto: 30 },
+    { modifier: 'square-card--bass', desconto: 30 },
   ];
 
   return (

@@ -20,29 +20,22 @@ function ProductGrid() {
   
   return (
     <section className={styles['product-grid-container']}>
-      <div >
+      <div className={styles['grid-wrapper']}>
         <div className={styles.row}>
-          <p>Pordutos em alta</p>
-          <a href="/produtos">
+          <p>Produtos em alta</p>
+          <a href="#">
             Ver todos
             <FontAwesomeIcon icon={faArrowRight} className={styles.icon} />
           </a>
         </div>
-        <div className={styles['product-grid-wrapper']}>
-          {sneakers.map((produto) =>{
-              return (
-              <ProductCard
-                key = {produto.id}
-                img = {produto.img}
-                categoria = {produto.categoria}
-                name = {produto.name}
-                gender = {produto.gender}
-                price = {produto.price}
-                discountPrice = {produto.discountPrice}
-                discount={(((produto.price - produto.discountPrice) / produto.price) * 100).toFixed(0)}
-              />
-            )})}
+
+        <div>
+
         </div>
+
+
+
+
       </div>
     </section>
   )

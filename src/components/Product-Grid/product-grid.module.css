@@ -1,29 +1,36 @@
 .product-grid-container{
     width: 100%;
     min-height: 70dvh;
+   
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    background-color: #F8F8FE;    
+    
+
+    /* padding: 1rem 0rem 1rem 0rem; */
+    /* background-color: #F8F8FE; */
+
+    background-color: aqua;
 }
 
+.grid-wrapper{
+    width: 90%;
+    background-color: #F8F8FE;
+} 
+
 .row{
-    width: 100%;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    user-select: none;
 }
 
-.row p{
-   font-weight: 700;
-   font-size: 24px;
-   line-height: 38px;
-   letter-spacing: 0.75px; 
+.row p {
+    color: var(--dark-gray-2);
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 38px;
+    letter-spacing: 0.75px; 
 }
 
 .row a{
@@ -35,24 +42,9 @@
 }
 
 .icon{
-    margin-left: 0.5rem;
+    margin-left: 10px;
 }
 
-.product-grid-wrapper{
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    row-gap: 2rem;
-    background-color: aquamarine;
-    padding: 1rem 0;
-}
-
-
-
-@media screen and (max-width: 500px) {
-    .product-grid-wrapper{
-        grid-template-columns: repeat(2, 1fr);
-        grid-column-gap: 10px;
-        grid-row-gap: 2rem;
-    }
+.sneakers-grid{
+    
 }

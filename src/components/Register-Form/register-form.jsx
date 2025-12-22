@@ -17,8 +17,8 @@ function RegisterForm() {
                         <h1>Informações pessoais</h1>
 
                         <div className={styles['field-row']}>
-                            <label htmlFor="">Nome Completo*</label>
-                            <input type="text" placeholder='Insira seu nome' required/>
+                            <label htmlFor="name-input">Nome Completo*</label>
+                            <input id="name-input" type="text" placeholder='Insira seu nome' required/>
                         </div>
 
                         <div className={styles['field-row']}>
@@ -33,12 +33,12 @@ function RegisterForm() {
                         </div>
 
                         <div className={styles['field-row']}>
-                            <label htmlFor="">E-mail*</label>
-                            <input type="email" placeholder='Insira seu e-mail' required/>
+                            <label htmlFor="mail-input">E-mail*</label>
+                            <input id="mail-input" type="email" placeholder='Insira seu e-mail' required/>
                         </div>
 
                         <div className={styles['field-row']}>
-                            <label htmlFor="">Celular*</label>
+                            <label htmlFor="celular-input">Celular*</label>
                             <IMaskInput
                                 mask="(85) 90000-0000"
                                 id="celular-input"
@@ -56,7 +56,7 @@ function RegisterForm() {
                         <h1>Informações de entrega</h1>
 
                         <div className={styles['field-row']}>
-                            <label htmlFor="">CEP*</label>
+                            <label htmlFor="cep-input">CEP*</label>
                             
                             <IMaskInput
                                 mask="00000-000"
@@ -69,22 +69,22 @@ function RegisterForm() {
 
                         <div className={styles['field-row']}>
                             <label htmlFor="">RUA*</label>
-                            <input type="text" placeholder='Insira sua rua' required/>
+                            <input id='rua-input' type="text" placeholder='Insira sua rua' required/>
                         </div>
 
                         <div className={styles['field-row']}>
-                            <label htmlFor="">Bairro*</label>
-                            <input type="text" placeholder='Insira seu bairro' required/>
+                            <label htmlFor="bairro-input">Bairro*</label>
+                            <input id="bairro-input" type="text" placeholder='Insira seu bairro' required/>
                         </div>
 
                         <div className={styles['field-row']}>
-                            <label htmlFor="">Cidade*</label>
-                            <input type="text" placeholder='Insira sua cidade' required/>
+                            <label htmlFor="cidade-input">Cidade*</label>
+                            <input id='cidade-input' type="text" placeholder='Insira sua cidade' required/>
                         </div>
 
                         <div className={styles['field-row']}>
-                            <label htmlFor="">Complemento</label>
-                            <input type="text" placeholder='Insira complemento'/>
+                            <label htmlFor="complemento-input">Complemento</label>
+                            <input id='complemento-input' type="text" placeholder='Insira complemento'/>
                         </div>
 
                     </fieldset>

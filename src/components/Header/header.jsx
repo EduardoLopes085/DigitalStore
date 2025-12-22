@@ -51,7 +51,7 @@ function Header({variant = "default"}){
                                 Home
                             </a>
                             
-                            <a href="#" className={styles['navigation-item']}>
+                            <a href="/products" className={styles['navigation-item']}>
                                 Produtos
                             </a>
                             

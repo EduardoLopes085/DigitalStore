@@ -1,0 +1,94 @@
+.filter-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.filter-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 10px 30px 10px 30px ;
+    gap: 12px;
+
+}
+
+.filter-title{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.75px;
+    color: var(--dark-gray-2);
+    border-bottom: 1px solid var(--light-gray-2);
+    width: 100%;
+}
+
+
+.marca-fildset{
+    width: 100%;
+    
+}
+
+.categoria-fildset{
+    width: 100%;
+    
+}
+
+.genero-fildset{
+    width: 100%;
+    
+}
+
+.estado-fildset{
+    width: 100%;
+}
+
+
+.class-fieldset{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.75px;
+    color: var(--dark-gray-2);
+}
+
+.field-item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 5px;
+}
+
+.field-item label{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.25px;
+    color: var(--dark-gray-2);
+}
+
+.field-item input[type="checkbox"] {
+  accent-color: var(--primary);
+}
+
+.field-item-column{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.field-item-column label{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.25px;
+    color: var(--dark-gray-2);
+}
+
+.field-item-column div{
+    display: flex;
+    gap: 5px;
+}

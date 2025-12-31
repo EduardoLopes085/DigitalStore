@@ -47,7 +47,7 @@ function Header({variant = "default"}){
                     <div className={styles['header-bottom']}>
                     
                         <nav className={styles['header-nav']}>
-                            <a href="#" className={styles['navigation-item']}>
+                            <a href="/" className={styles['navigation-item']}>
                                 Home
                             </a>
                             

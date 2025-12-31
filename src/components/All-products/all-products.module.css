@@ -4,6 +4,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    padding: 1rem 0rem;
 }
 
 
@@ -22,6 +23,8 @@
 
 .filter-container{
     width: 15%;
+    position: sticky;
+    top: 1rem;
 }
 
 

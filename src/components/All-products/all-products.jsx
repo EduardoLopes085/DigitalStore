@@ -27,7 +27,7 @@ function AllProducts() {
 
 
                 <div className={styles['grid-container']}>
-                    <ProductGrid products = { sneakers }/>
+                    <ProductGrid products = { sneakers } variant = "count" columns={3}/>
                 </div>
             </div>
         </div>

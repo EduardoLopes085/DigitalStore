@@ -25,7 +25,7 @@ function HomePage(){
             <Slider/>
             <SquareDestach/>
             <ColectionDestach/>
-            <ProductGrid products={sneakers} />
+            <ProductGrid products={sneakers} variant = "default"/>
             <SpecialOffer/>
             <Footer/>
         </>

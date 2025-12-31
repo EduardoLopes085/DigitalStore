@@ -89,19 +89,6 @@ function Filter() {
                     )
                 })}
             </div>
-
-
-            {/* <div className={styles['field-item-column']}>
-                <div>
-                    <input type="radio" name="estado" id="novo" />
-                    <label htmlFor="novo">Novo</label>
-                </div>
-
-                <div>
-                    <input type="radio" name="estado" id="usado" />
-                    <label htmlFor="usado">Usado</label>
-                </div>
-            </div> */}
             
         </div>
         </div>

@@ -9,14 +9,14 @@ function ProductGrid({ products }) {
   return (
     <section className={styles['product-grid-container']}>
       <div className={styles['grid-wrapper']}>
-        <div className={styles.row}>
+        {/* <div className={styles.row}>
           <p>Produtos em alta</p>
           
           <a href="#">
             Ver todos
             <FontAwesomeIcon icon={faArrowRight} className={styles.icon} />
           </a>
-        </div>
+        </div> */}
 
         <div className={styles['sneakers-grid']}>
             {products.map((tenis)=>{

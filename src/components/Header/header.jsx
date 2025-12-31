@@ -32,7 +32,7 @@ function Header({variant = "default"}){
 
                             <a href="/register" className={styles['register-button']}> Cadastre-se </a>
 
-                            <button className={styles['login-button']}> Entrar </button>
+                            <a href='/login' className={styles['login-button']}> Entrar </a>
 
                             <a className={styles['cart-button']} href="#">
                                 <img src={cart} alt="imagem de um carrinho de compras" />
@@ -47,11 +47,11 @@ function Header({variant = "default"}){
                     <div className={styles['header-bottom']}>
                     
                         <nav className={styles['header-nav']}>
-                            <a href="#" className={styles['navigation-item']}>
+                            <a href="/" className={styles['navigation-item']}>
                                 Home
                             </a>
                             
-                            <a href="#" className={styles['navigation-item']}>
+                            <a href="/products" className={styles['navigation-item']}>
                                 Produtos
                             </a>
                             

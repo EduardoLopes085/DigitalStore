@@ -7,10 +7,10 @@ import facebook from '../../assets/icons/facebook_vetor.png'
 
 function LoginForm() {
   return (
-    <section className={styles['register-container']}>
-        <div className={styles['register-wrapper']}>
+    <section className={styles['login-container']}>
+        <div className={styles['login-wrapper']}>
 
-            <div className={styles['register-form']}>
+            <div className={styles['login-form']}>
                 <div>
                     <h3>Acesse sua conta</h3>
                     
@@ -29,7 +29,7 @@ function LoginForm() {
                         <a href="#" className={styles['forgot-password']} >
                             Esqueci minha senha
                         </a>
-                        <button className={styles['register-button']} type='submit'>
+                        <button className={styles['login-button']} type='submit'>
                             Acessar Conta
                         </button>
                         <div className={styles['auther-login']}>

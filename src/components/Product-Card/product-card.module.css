@@ -1,10 +1,9 @@
 .product-card{
-    width: 95%;
-    height: 95%;
+    max-width: 340px;
+    min-width: 340px;
 
+    height: 100%;
     background-color: #F8F8FE;
-    
-
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -12,6 +11,8 @@
     gap: 1rem;
 
     transition: transform 0.3s ease-in-out;
+
+    position: relative;
 }
 
 .product-card:hover{
@@ -21,12 +22,12 @@
 
 
 .product-card-image{
-    background-color: white;
+    width: 100%;
 }
 
 
 .product-card-description{
-
+    width: 100%;
 }
 
 
@@ -66,4 +67,20 @@
     line-height: 38px;
     letter-spacing: 0.75px;
     color: black;
+}
+
+
+@media screen and (max-width: 500px) {
+    
+    .price-row{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 5px;
+    }
+
+    .product-card{
+        max-width: 170px;
+        min-width: 170px; 
+    }
 }

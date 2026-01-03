@@ -5,7 +5,7 @@ import ProductGrid from "../Product-Grid/product-grid";
 import Foto from "../../assets/products/sneaker-photo.png"
 
 function AllProducts() {
-  
+    
         const sneakers = [
                 { id: 0, img: Foto, categoria: 'Tênis', name: 'K-Swiss V8', gender: 'masculino', price: 200, discountPrice: 100, discount: 50 },
                 { id: 1, img: Foto, categoria: 'Tênis', name: 'Nike Revolution', gender: 'masculino', price: 319.99, discountPrice: 219.99, discount: 31 },

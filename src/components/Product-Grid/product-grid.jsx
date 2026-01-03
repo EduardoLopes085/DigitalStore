@@ -6,6 +6,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
 
 function ProductGrid({ products, variant = 'default', columns=4 }) {
+  const columnsClass = styles[`cols-${columns}`]
   return (
     <section className={styles['product-grid-container']}>
       <div className={styles['grid-wrapper']}>
@@ -38,7 +39,7 @@ function ProductGrid({ products, variant = 'default', columns=4 }) {
         </div>
         )}
 
-        <div className={styles['sneakers-grid']} style={{ gridTemplateColumns: `repeat(${columns}, 1fr)` }}>
+        <div className={`${styles['sneakers-grid']} ${columnsClass}`}>
             {products.map((tenis)=>{
               return (
                 <ProductCard

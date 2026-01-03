@@ -1,9 +1,8 @@
 import React from 'react'
 import styles from '../Footer/footer.module.css'
 import logo from '../../assets/icons/logo-footer.svg'
-import facebook from '../../assets/icons/facebook.svg'
-import instagram from '../../assets/icons/instagram.svg'
-import twitter from '../../assets/icons/twitter.svg'
+import LindedIn from '../../assets/icons/InBug-White.png';
+import Git from '../../assets/icons/github-mark-white.png'
 
 function Footer() {
   return (
@@ -21,11 +20,14 @@ function Footer() {
                     </p>
 
                     <div className={styles['social-row']}>
-                      <img src={facebook} alt="" />
+                      <a href="https://www.linkedin.com/in/eduardolopesdev/">
+                        <img src={LindedIn} alt=""  style={{ width: '21px' }}/>
+                      </a>
                       
-                      <img src={instagram} alt="" />
+                      <a href="https://github.com/EduardoLopes085">
+                        <img src={Git} alt="" style={{ width: '21px' }}/>
+                      </a>
                       
-                      <img src={twitter} alt="" />
                     </div>
 
                 </div>

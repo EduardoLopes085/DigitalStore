@@ -1,6 +1,7 @@
 .mySwiper2 {
   height: 520px;
   overflow: hidden;
+  user-select: none;
 }
 
 .mySwiper2 .swiper-slide img {
@@ -9,18 +10,8 @@
   object-fit: cover;
 }
 
-
-
 .mySwiper {
   height: 100px;
   margin-top: 22px;
 }
-
-
-
-
-
-
-
-
 

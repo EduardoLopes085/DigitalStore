@@ -3,21 +3,13 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  
-  
   padding: 15px 60px;
-  
-  
   border-radius: 8px;
-
   font-family: var(--fonte-principal);
   font-weight: 700;
   color: white;
-
   transition: ease-in-out 0.5s;
-
-  background-color: var(--primary);
-
+  background-color: var(--bg-color, var(--primary));
   cursor: pointer;
 }
 

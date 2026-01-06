@@ -2,6 +2,7 @@ import SwiperProduct from '../SwiperProduct/SwiperProduct'
 import styles from './single-card.module.css'
 import stars from '../../assets/icons/Stars.png'
 import star from '../../assets/icons/Star1.png'
+import BuyButton from '../buy-button/buy-button'
 
 function SingleCard() {
     
@@ -69,17 +70,66 @@ function SingleCard() {
                     </p>
                 </div>
 
-                <div>
-                    <p>
+                <div className={styles.sizeSelector}>
+                    <h1 className={styles.sizeHead}>
                         Tamanho 
-                    </p>
+                    </h1>
 
-                    <div>
+                    <div className={styles.sizeRow}>
 
+                        <div className={styles.sizeOption}>
+                            39
+                        </div>
+
+                        <div className={styles.sizeOption}>
+                            40
+                        </div>
+
+                        <div className={styles.sizeOption}>
+                            41
+                        </div>
+
+                        <div className={styles.sizeOption}>
+                            42
+                        </div>
+                        
 
                     </div>
                 </div>
 
+                <div className={styles.sizeSelector}>
+                    <h1 className={styles.sizeHead}>
+                        Cor 
+                    </h1>
+
+                    <div className={styles.sizeRow}>
+
+                        <div className={styles.colorOption}>
+                            
+                        </div>
+
+                        <div className={styles.colorOption}>
+                            
+                        </div>
+
+                        <div className={styles.colorOption}>
+                            
+                        </div>
+
+                        <div className={styles.colorOption}>
+                            
+                        </div>
+
+                    </div>
+                </div>
+
+                <div className={styles.buttonContainer}>
+                    <BuyButton
+                        message = "comprar"
+                        link = "www.google.com.br/"
+                        color = "#FFB31F"
+                    />
+                </div>
             </div>
        </div>
     </div>

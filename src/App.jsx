@@ -5,6 +5,7 @@ import HomePage from './Pages/Home'
 import LoginPage from './Pages/Login'
 import RegisterPage from './Pages/Register'
 import ProductsPage from './Pages/Products'
+import SingleProduto from './Pages/SingleProduto'
 
 function App() {
   
@@ -15,6 +16,7 @@ function App() {
         <Route path='/login' element={<LoginPage/>} />
         <Route path='/register' element={<RegisterPage/>} />
         <Route path='/products' element={<ProductsPage/>} />
+        <Route path='/single' element={<SingleProduto/>}/>
       </Routes>
     </Router>
   )

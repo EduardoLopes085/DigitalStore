@@ -14,7 +14,7 @@ import styles from './swiper.module.css';
 import { FreeMode, Navigation, Thumbs } from 'swiper/modules';
 
 
-function SwiperProduct() {
+function SwiperProduct(props) {
   const [thumbsSwiper, setThumbsSwiper] = useState(null);
   return (
     <>
@@ -32,7 +32,7 @@ function SwiperProduct() {
     className={styles.mySwiper2}
   >
     <SwiperSlide>
-      <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
+      <img src={props.primary} />
     </SwiperSlide>
     <SwiperSlide>
       <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
@@ -56,7 +56,7 @@ function SwiperProduct() {
     className={styles.mySwiper}
   >
     <SwiperSlide>
-      <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
+      <img src={props.primary} />
     </SwiperSlide>
     <SwiperSlide>
       <img src="https://swiperjs.com/demos/images/nature-2.jpg" />

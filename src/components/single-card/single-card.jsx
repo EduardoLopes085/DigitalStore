@@ -3,6 +3,7 @@ import styles from './single-card.module.css'
 import stars from '../../assets/icons/Stars.png'
 import star from '../../assets/icons/Star1.png'
 import BuyButton from '../buy-button/buy-button'
+import img from '../../assets/products/sneaker-photo.png'
 
 function SingleCard() {
     
@@ -12,7 +13,9 @@ function SingleCard() {
     <div className={styles.container}>
        <div className={styles.wrapper}>
             <div className={styles.swiperContainer}>
-                <SwiperProduct/>
+                <SwiperProduct
+                    primary = {img}
+                />
             </div>
 
             <div className={styles.informationContainer}>

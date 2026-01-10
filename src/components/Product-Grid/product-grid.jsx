@@ -16,7 +16,7 @@ function ProductGrid({ products, variant = 'default', columns=4 }) {
           <div className={styles.row}>
           <p>Produtos em alta</p>
           
-          <a href="#">
+          <a href="/produtos">
             Ver todos
             <FontAwesomeIcon icon={faArrowRight} className={styles.icon} />
           </a>

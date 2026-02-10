@@ -23,7 +23,7 @@ function HomePage(){
             <Slider/>
             <SquareDestach/>
             <ColectionDestach/>
-            <ProductGrid products={sneakers} variant = "default"/>
+            <ProductGrid products={sneakers} variant = "default" title = "Produtos em Alta"/>
             <SpecialOffer/>
             
         </>

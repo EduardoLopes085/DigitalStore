@@ -35,13 +35,13 @@ function SwiperProduct(props) {
       <img src={props.primary} />
     </SwiperSlide>
     <SwiperSlide>
-      <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
+      <img src={props.primary} />
     </SwiperSlide>
     <SwiperSlide>
-      <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
+      <img src={props.primary} />
     </SwiperSlide>
     <SwiperSlide>
-      <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
+      <img src={props.primary} />
     </SwiperSlide>
   </Swiper>
 
@@ -59,13 +59,13 @@ function SwiperProduct(props) {
       <img src={props.primary} />
     </SwiperSlide>
     <SwiperSlide>
-      <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
+      <img src={props.primary} />
     </SwiperSlide>
     <SwiperSlide>
-      <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
+      <img src={props.primary} />
     </SwiperSlide>
     <SwiperSlide>
-      <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
+      <img src={props.primary} />
     </SwiperSlide>
   </Swiper>
 </>  

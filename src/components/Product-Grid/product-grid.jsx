@@ -5,7 +5,7 @@ import ProductCard from '../Product-Card/product-card'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
 
-function ProductGrid({ products, variant = 'default', columns=4 }) {
+function ProductGrid({ products, variant = 'default', columns=4, title }) {
   const columnsClass = styles[`cols-${columns}`]
   return (
     <section className={styles['product-grid-container']}>
@@ -14,7 +14,7 @@ function ProductGrid({ products, variant = 'default', columns=4 }) {
 
         {variant === "default" && (
           <div className={styles.row}>
-          <p>Produtos em alta</p>
+          <p>{title}</p>
           
           <a href="/produtos">
             Ver todos

@@ -146,3 +146,22 @@ p {
 
   --fonte-principal: 'Inter', sans-serif;
 }
+
+[data-tema="dark"] {
+  --primary: #E0529A;          /* rosa mais claro p/ contraste no fundo escuro */
+  --secondary: #9A9BE8;
+  --tertiary: #C2267A;
+  --error: #F26680;
+  --sucess: #5DD97E;
+  --warning: #F8BB45;
+  --dark-gray: #E8E8E8;        /* invertido: cinzas escuros viram claros */
+  --dark-gray-2: #CCCCCC;
+  --light-gray: #888888;
+  --light-gray-2: #555555;
+  --light-gray-3: #2A2A2A;
+  --cor-fundo: #121212;        /* fundo escuro principal */
+  --cor-texto: #E0E0E0;        /* texto claro */
+  --cor-texto-secundario: #A0A0A8;
+  --primary-gradient: linear-gradient(to bottom, #E0529A, #5C2040);
+  --secondary-gradient: linear-gradient(to bottom, #9A9BE8, #2A2B5A);
+}

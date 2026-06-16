@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './all-products.module.css';
-import Filter from '../filter-checkbox/filter';
-import ProductGrid from "../Product-Grid/product-grid";
+import Filter from '../filter-checkbox/Filter.jsx';
+import ProductGrid from "../Product-Grid/Product-grid.jsx";
 import Foto from "../../assets/products/sneaker-photo.png"
 import sneakers from "../../mocks/sneakers.js";
 

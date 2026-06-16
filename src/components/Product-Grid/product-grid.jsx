@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './product-grid.module.css'
-import ProductCard from '../Product-Card/product-card'
+import ProductCard from '../Product-Card/Product-card'
 // import sneaker from '../../assets/products/sneaker-photo.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons'

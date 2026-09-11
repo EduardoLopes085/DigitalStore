@@ -1,10 +1,12 @@
 import React from 'react'
 import styles from './filter.module.css'
+import sneakers from '../../mocks/Sneakers';
 
 function Filter() {
-    const marcas = [ 'Adidas', 'Balenciaga', 'K-Swiss', 'Nike', 'Adidas'];
-    const categoria = ['Esporte e Lazer', 'Casual', 'Utilitário', 'Corrida'];
-    const genero = ['Masculino', 'Feminino', 'Unissex'];
+    const marcas = [...new Set(sneakers.map(sneaker => sneaker.brand))];
+
+    const categoria = [...new Set(sneakers.map(sneaker => sneaker.categoria))];
+    const genero = [...new Set(sneakers.map(sneaker => sneaker.gender))];
     const estado = ['Novo', 'Usado'];
   
     return (
@@ -72,7 +74,7 @@ function Filter() {
             
         </div>
 
-        <div className={styles['estado-fildset']}>
+        {/* <div className={styles['estado-fildset']}>
             <h1 className={styles['class-fieldset']}>
                 Estado
             </h1>
@@ -90,7 +92,7 @@ function Filter() {
                 })}
             </div>
             
-        </div>
+        </div> */}
         </div>
     </div>
   )
